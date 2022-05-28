@@ -176,8 +176,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name=" Modular Inventory Part 7"
-config/description="Implementing the item rarity."
+config/name=" Modular Inventory Part 8"
+config/description="Improving the inventory functions and adding basic crafting."
 run/main_scene="res://scenes/main.tscn"
 config/icon="res://icon.png"
 

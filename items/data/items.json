@@ -18,6 +18,18 @@
 		"stack_size": 10,
 		"level": 1
 	},
+	"plank": {
+		"name": "Plank",
+		"type": "MATERIAL",
+		"stack_size": 20,
+		"level": 1
+	},
+	"rock": {
+		"name": "Rock",
+		"type": "MATERIAL",
+		"stack_size": 5,
+		"level": 1
+	},
 	"stone_brick": {
 		"name": "Stone Brick",
 		"type": "MATERIAL",

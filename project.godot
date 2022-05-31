@@ -64,7 +64,12 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://inventory/hotbar_slot.gd"
 }, {
-"base": "Control",
+"base": "PanelContainer",
+"class": "InnerPanel",
+"language": "GDScript",
+"path": "res://ui/inner_panel.gd"
+}, {
+"base": "InnerPanel",
 "class": "Inventory",
 "language": "GDScript",
 "path": "res://inventory/inventory.gd"
@@ -156,6 +161,7 @@ _global_script_class_icons={
 "Game_Enums": "",
 "Hotbar": "",
 "Hotbar_Slot": "",
+"InnerPanel": "",
 "Inventory": "",
 "Inventory_Slot": "",
 "Item": "",
@@ -187,6 +193,7 @@ ItemManager="*res://managers/item_manager.gd"
 ResourceManager="*res://managers/resource_manager.gd"
 SettingsManager="*res://managers/settings_manager.gd"
 SignalManager="*res://managers/signal_manager.gd"
+InventoryManager="*res://managers/inventory_manager.tscn"
 
 [debug]
 
